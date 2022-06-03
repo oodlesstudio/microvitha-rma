@@ -1,0 +1,337 @@
+.cursorPointer {
+  cursor: pointer;
+}
+
+.unmatchedContainer {
+  padding: 0 12px 12px;
+}
+
+.breadcrumbHeading {
+  height: 34px;
+}
+
+.unmatchedContainer .tableBorderBox .table {
+  width: 1955px;
+}
+
+.unmatchedContainer .configLeftBottom {
+  margin-top: 12px;
+}
+
+.unmatchedContainer .configSelectBoxTop {
+  margin-top: 0;
+}
+
+/* Accordion */
+.unmatchedContainer .accordion-item {
+  border-radius: 8px;
+  background-color: var(--color-light-blue);
+  border: 1px solid var(--color-border-default);
+}
+
+.unmatchedContainer .accordion-header {
+  padding: 12px 12px;
+}
+
+.unmatchedContainer .accordion-header .allFiltersBtn {
+  width: 88px;
+}
+
+.unmatchedContainer .accordion-body {
+  padding: 0 12px;
+}
+
+.unmatchedContainer .accordion-body .configSelectBoxTop .col-1 {
+  padding: 0 6px;
+  width: 25%;
+  flex: inherit;
+  margin-top: 8px;
+}
+
+
+/* active */
+
+.activeCardBtns{
+  display: flex;
+  align-items: center;
+}
+
+.activeCardBtn {
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid var(--color-primary-default);
+  border-radius: 4px;
+  color: var(--color-primary-default);
+  display: flex;
+  font-family: Inter;
+  font-size: var(--font-size14);
+  font-weight: 600;
+  height: 32px;
+  justify-content: center;
+  width: 115px;
+}
+.activeCardBtn:not(:last-child){
+  margin-right: 6px;
+}
+.activeCardBtn:first-child{
+margin-left: 6px;
+}
+
+
+@media (max-width: 768px) {
+  .unmatchedContainer {
+    padding-bottom: 0;
+  }
+
+  .unmatchedContainer .accordion-body .configSelectBoxTop .col-1 {
+    width: 33%;
+  }
+}
+
+@media (max-width: 425px) {
+  .breadcrumbHeading {
+    flex-direction: column-reverse;
+    align-items: flex-start !important;
+    margin: 12px 0;
+  }
+
+  .unmatchedContainer .has-search .form-control {
+    width: 98%;
+  }
+
+  .unmatchedContainer .accordion-body .configSelectBoxTop .col-1 {
+    width: 100%;
+  }
+}
+
+/* Calendar */
+.react-datepicker-popper[data-placement^="bottom"] {
+  padding-top: 0 !important;
+}
+
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle::before {
+  display: none !important;
+}
+
+.react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle::after {
+  display: none !important;
+}
+
+.react-datepicker {
+  font-family: "Inter" !important;
+  font-size: var(--font-size14) !important;
+  background-color: var(--color-light-blue) !important;
+  border: none !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.react-datepicker__navigation-icon::before {
+  border-color: var(--color-primary-default) !important;
+  border-width: 2px 2px 0 0 !important;
+}
+
+.react-datepicker__header {
+  background-color: var(--color-secondary-light-defaut) !important;
+  border-bottom: none !important;
+  border-top-left-radius: 8px !important;
+  border-top-right-radius: 8px !important;
+}
+
+.react-datepicker__current-month {
+  color: var(--color-primary-default) !important;
+  font-weight: var(--font-weight-600) !important;
+  font-size: var(--font-size14) !important;
+}
+
+.react-datepicker__day-name {
+  font-weight: var(--font-weight-600);
+  font-size: var(--font-size12) !important;
+  color: var(--color-black) !important;
+}
+
+.react-datepicker__day {
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size14);
+  color: var(--color-black) !important;
+}
+
+.react-datepicker__day:hover {
+  background-color: var(--color-primary-default) !important;
+  border-radius: 4px !important;
+  color: var(--color-white) !important;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected {
+  background-color: var(--color-primary-default) !important;
+  border-radius: 4px !important;
+  color: var(--color-white) !important;
+}
+
+.unmatchedDate {
+  width: 100%;
+  background-color: var(--border-box-bg);
+  border: 1px solid var(--color-border-default);
+  height: 32px;
+  border-radius: 4px;
+  padding-left: 12px;
+  font-family: "Inter";
+  font-size: var(--font-size14);
+  letter-spacing: 0.02em;
+  color: var(--color-black);
+  position: relative;
+  background-image: url(../../images/common/calendar.svg);
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+}
+
+.react-datepicker__day--outside-month {
+  opacity: 30%;
+}
+
+/* Table Modal */
+.unmatchedTableModal .modal-dialog {
+  max-width: 1060px;
+}
+
+.unmatchedTableModal .modal-content {
+  width: 100%;
+}
+
+.unmatchedTableModal .modal-body {
+  padding: 0 12px 16px;
+}
+
+.unmatchedTableModal .unmatchedModalHeading {
+  margin: 16px 0 8px;
+}
+
+.unmatchedTableModal .table {
+  --bs-table-striped-bg: var(--border-box-bg);
+  --bs-table-striped-color: var(--color-black);
+  --bs-table-hover-bg: var(--table-hover-color);
+  --bs-table-hover-color: var(--color-black);
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.unmatchedTableModal .table tbody {
+  --bs-table-bg: var(--border-box-bg);
+  --bs-table-accent-bg: var(--border-box-bg);
+}
+
+.unmatchedTableModal .table thead tr th {
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size14);
+  background-color: var(--color-secondary-light-defaut);
+  color: var(--color-black);
+  height: 32px;
+  padding: 0;
+  padding-left: 14px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.unmatchedTableModal .table thead tr th:first-child {
+  border-top-left-radius: 4px;
+}
+
+.unmatchedTableModal .table thead tr th:last-child {
+  border-top-right-radius: 4px;
+}
+
+.unmatchedTableModal .table tbody tr td:first-child {
+  border-bottom-left-radius: 4px;
+}
+
+.unmatchedTableModal .table tbody tr td:last-child {
+  border-bottom-right-radius: 4px;
+}
+
+.unmatchedTableModal .table tbody tr td {
+  font-size: var(--font-size14);
+  height: 34px;
+  padding: 0;
+  padding-left: 14px;
+  text-align: center;
+}
+
+
+/* ------------------- Active Cards ------------------- */
+
+.tableHeaderTab{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.has-search2{
+  margin-left: 6px;
+}
+
+@media (max-width: 768px) {
+  .unmatchedTableModal .modal-dialog {
+    max-width: 95%;
+  }
+
+  .unmatchedTableModal .table {
+    width: 1012px;
+  }
+
+    .activeCardBtn {
+      align-items: center;
+      background-color: transparent;
+      border: 1px solid var(--color-primary-default);
+      border-radius: 4px;
+      color: var(--color-primary-default);
+      display: flex;
+      font-family: Inter;
+      font-size: var(--font-size14);
+      font-weight: 600;
+      height: 32px;
+      justify-content: center;
+      width: 100px;
+    }
+
+        .has-search2 .form-control {
+          width: 100%;
+          height: 32px;
+          border-color: var(--color-border-default);
+          padding-left: 30px;
+          font-family: "Inter";
+          font-size: var(--font-size14);
+          letter-spacing: 0.02em;
+          color: var(--color-black);
+          background-color: transparent;
+        }
+}
+@media (max-width: 650px) {
+
+    .tableHeaderTab {
+      display: flex;
+      flex-direction: column;
+      align-items:unset;
+      justify-content: unset;
+    }
+        .activeCardBtns {
+          display: flex;
+          align-items: center;
+          margin: 0 auto;
+          margin-top: 12px;
+        }
+
+        .activeCardBtn{
+          width: 104px;
+        }
+
+        .activeCardBtn:first-child {
+          margin-left: 0px;
+        }
+}
+
+@media(max-width:320px){
+          .activeCardBtn {
+              width: 85px;
+            }
+}

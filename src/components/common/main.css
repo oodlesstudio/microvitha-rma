@@ -1,0 +1,1002 @@
+/* Branch Registration */
+/* Main View */
+.mainView {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-background-default);
+  padding-top: 50px;
+  min-height: calc(100vh - 32px);
+}
+.sidebarOpened {
+  width: calc(100% - 216px);
+}
+.sidebarClosed {
+  width: calc(100% - 50px);
+}
+@media (max-width: 767px) {
+  .mainView {
+    padding-top: 88px;
+  }
+}
+@media (max-width: 768px) {
+  .sidebarOpened {
+    width: 100%;
+  }
+  .mainView {
+    min-height: 100vh;
+  }
+}
+
+/* Terminal CSS */
+.terminalContainer {
+  padding: 0 12px;
+}
+.breadcrumbHeading {
+  height: 34px;
+}
+.terminalWhiteBox {
+  padding-top: 24px;
+  padding-bottom: 32px;
+}
+.terminalWhiteBox .clientNameSelect {
+  margin-bottom: 12px;
+  width: 350px;
+}
+.terminalWhiteBox .lightBlueBox {
+  border: 1px dashed var(--color-primary-default);
+  width: 350px;
+  padding: 16px 0 18px;
+}
+.terminalWhiteBox .dropFileIcon {
+  fill: var(--drop-file-color);
+}
+.terminalWhiteBox .terminalMasterBox {
+  margin: 12px 0;
+}
+.terminalWhiteBox .terminalBtnBox {
+  width: 350px;
+}
+.terminalWhiteBox .kiHXWb,
+.terminalWhiteBox .dGSgsW {
+  border: none;
+  padding: 0;
+  height: 12px;
+}
+.terminalWhiteBox svg,
+.terminalWhiteBox .fVfcRr,
+.terminalWhiteBox .kTMxfv {
+  display: none;
+}
+.clientNameSelect .css-tj5bde-Svg {
+  display: inherit;
+}
+.terminalWhiteBox .browseFileText {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media (max-width: 425px) {
+  .breadcrumbHeading {
+    flex-direction: column-reverse;
+    align-items: flex-start !important;
+    margin: 12px 0;
+  }
+  .terminalWhiteBox .clientNameSelect,
+  .terminalWhiteBox .terminalBtnBox,
+  .terminalSmallBox {
+    width: 100%;
+  }
+  .terminalWhiteBox .lightBlueBox {
+    width: calc(100% - 35px);
+  }
+}
+
+/* Field Identification */
+.identificationContainer {
+  padding: 0 12px 12px;
+}
+.breadcrumbHeading {
+  height: 34px;
+}
+.identificationContainer .configLeftBottom {
+  margin-top: 12px;
+}
+.identificationContainer .configSelectBoxTop {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+/* Accordion */
+.identificationContainer .accordion-item {
+  border-radius: 8px;
+  background-color: var(--color-light-blue);
+  border: 1px solid var(--color-border-default);
+}
+.identificationContainer .accordion-header {
+  padding: 12px;
+}
+.identificationContainer .accordion-header .allFiltersBtn {
+  width: 88px;
+}
+.identificationContainer .accordion-body {
+  padding: 0 12px;
+}
+.identificationContainer .accordion-body .configSelectBoxTop .col {
+  padding: 0 6px;
+  width: 25%;
+  flex: inherit;
+  margin-top: 8px;
+}
+@media (max-width: 768px) {
+  .identificationContainer {
+    padding-bottom: 0;
+  }
+  .identificationContainer .accordion-body .configSelectBoxTop .col {
+    width: 33.33%;
+  }
+}
+@media (max-width: 425px) {
+  .breadcrumbHeading {
+    flex-direction: column-reverse;
+    align-items: flex-start !important;
+    margin: 12px 0;
+  }
+  .identificationContainer .accordion-body .configSelectBoxTop .col {
+    width: 100%;
+  }
+}
+
+/* Bottom Content */
+.identificationContainer .configLeftBottom .configSelectBoxTop {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.identificationContainer .configLeftBottom .configSelectBoxTop .col {
+  padding: 0 6px;
+  width: 25%;
+  flex: inherit;
+  margin-top: 12px;
+}
+.identificationContainer .configLeftBottom .btnsBtm {
+  margin: 16px 0;
+}
+@media (max-width: 768px) {
+  .identificationContainer .configLeftBottom .configSelectBoxTop .col {
+    width: 33.33%;
+  }
+}
+@media (max-width: 425px) {
+  .identificationContainer .configLeftBottom .configSelectBoxTop .col {
+    width: 100%;
+  }
+}
+
+/* Input Text Box */
+.inputTextBox {
+  display: block;
+  width: 100%;
+  background-color: var(--border-box-bg);
+  border: 1px solid var(--color-border-default);
+  height: 32px;
+  border-radius: 4px;
+  padding-left: 12px;
+  font-family: "Inter";
+  font-size: var(--font-size14);
+  letter-spacing: 0.02em;
+}
+.disabledInput {
+  background-color: var(--color-disabled);
+}
+.disabledInput::placeholder {
+  color: var(--color-black);
+}
+
+/* File Configuration */
+/* Config Left */
+.configMainContent .configLeft {
+  width: 61.6%;
+  padding-bottom: 12px;
+}
+.configLeftHead,
+.configRightHead {
+  height: 34px;
+}
+.fileConfigHead {
+  letter-spacing: 0.03em;
+  font-size: var(--font-size18);
+}
+.configTopBlueBox {
+  padding: 0 12px;
+  min-height: 165px;
+}
+.configLeftFilters {
+  padding: 12px 0 8px;
+}
+.allFiltersBtn {
+  width: 80px;
+  height: 24px;
+  border: 1px solid var(--color-primary-default);
+}
+.configLeft .btnsBtm {
+  margin: 12px 0;
+}
+.configBottomHeadingBox {
+  height: 38px;
+  padding-top: 16px;
+}
+.breadCrumbLeft {
+  display: none !important;
+}
+.bs-tooltip-top .tooltip-arrow::before {
+  border-top-color: var(--color-headerTooltip);
+}
+.tableTextInner {
+  width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+/* .tableTextInner:hover {
+  width: 100%;
+  overflow: unset;
+  white-space: unset;
+  text-overflow: unset;
+} */
+
+@media (max-width: 992px) {
+  .configMainContent .configLeft {
+    width: 100%;
+  }
+  .breadCrumbLeft {
+    display: inherit !important;
+  }
+  .configRightHead {
+    display: none !important;
+  }
+  .configLeftBottom {
+    padding-bottom: 12px !important;
+  }
+  .configBottomHeadingBoxRight {
+    height: 12px;
+    padding: 0;
+  }
+  .configRightBottom {
+    padding-bottom: 0 !important;
+  }
+}
+@media (max-width: 426px) {
+  .configLeftHead {
+    flex-direction: column-reverse;
+    align-items: flex-start !important;
+    height: inherit;
+    margin-top: 8px;
+    margin-bottom: 12px;
+  }
+  .fileConfigHead {
+    font-size: var(--font-size16);
+    margin-top: 6px;
+  }
+}
+/* Config Blue Box */
+.absoluteFiltersBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+.absoluteFiltersBox .configSelectBoxTop {
+  padding: 0 6px;
+}
+.absoluteFiltersBox .col,
+.configTopBlueBox .col {
+  flex: inherit;
+  padding: 0 6px;
+  width: 20%;
+  margin-top: 12px;
+}
+.absoluteFiltersBox .filtersInputNumber {
+  height: 32px;
+  border: 1px solid var(--color-border-default);
+  border-radius: 4px;
+  padding-left: 12px;
+  font-size: var(--font-size14);
+  letter-spacing: 0.02em;
+  color: var(--color-black);
+  width: 100%;
+  background-color: var(--border-box-bg);
+}
+.absoluteFiltersBox .filtersInputNumber::placeholder {
+  font-size: var(--font-size14);
+  letter-spacing: 0.02em;
+  color: var(--color-black);
+}
+.absoluteFiltersBox .btnsBtm {
+  margin-top: 0;
+}
+.absoluteFiltersBox .allFiltersBtn {
+  background-color: transparent;
+  border: none;
+  width: inherit;
+  height: inherit;
+}
+@media (max-width: 992px) {
+  .absoluteFiltersBox .col,
+  .configTopBlueBox .col {
+    width: 25%;
+  }
+}
+@media (max-width: 767px) {
+  .absoluteFiltersBox .col,
+  .configTopBlueBox .col {
+    flex: inherit;
+    padding: 0 6px;
+    width: 100%;
+  }
+  .configLeft .btnsBtm .btnPrimary,
+  .configLeft .btnsBtm .btnPrimaryOutline {
+    width: calc(50% - 4px);
+  }
+}
+/* Table Border Box */
+.tableBorderBox .tableContentBox {
+  max-height: 391px;
+}
+.tableBorderBox .table {
+  --bs-table-striped-bg: var(--border-box-bg);
+  --bs-table-striped-color: var(--color-black);
+  --bs-table-hover-bg: var(--table-hover-color);
+  --bs-table-hover-color: var(--color-black);
+  color: var(--color-black);
+  width: 2258px;
+}
+.tableBorderBox .table tbody {
+  --bs-table-bg: var(--table-striped-color);
+  --bs-table-accent-bg: var(--table-striped-color);
+}
+.tableBorderBox .table thead {
+  position: sticky;
+  top: 0;
+}
+.tableBorderBox .table thead tr th {
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size14);
+  background-color: var(--color-secondary-light-defaut);
+  height: 32px;
+  padding: 0;
+  /* padding-left: 14px; */
+  vertical-align: middle;
+  text-align: center;
+}
+.tableBorderBox .table thead tr th:first-child,
+.tableBorderBox .table tbody tr td:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  padding-left: 14px;
+}
+.tableBorderBox .table thead tr th:last-child,
+.tableBorderBox .table tbody tr td:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.tableBorderBox .table tbody tr td {
+  font-size: var(--font-size14);
+  height: 34px;
+  padding: 0;
+  /* padding-left: 14px; */
+  text-align: center;
+}
+.tableBorderBox .table tbody tr {
+  border-bottom: 1px solid var(--color-table-border);
+}
+.tableBorderBox .table tbody tr:last-child {
+  border-bottom: none;
+}
+/* Table Scroll Bar */
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar:horizontal {
+  height: 3px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-scrollbar);
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 50px;
+  background-color: var(--color-background-default);
+}
+@media (max-width: 768px) {
+  ::-webkit-scrollbar:vertical {
+    display: none;
+  }
+}
+
+/* Select Box */
+.configSelectBoxTop {
+  margin-top: 8px;
+  padding: 0 6px;
+}
+.clientNameSelect label {
+  font-size: var(--font-size14);
+  letter-spacing: 0.02em;
+  color: var(--color-black);
+  margin-bottom: 4px;
+  font-weight: var(--font-weight-500);
+}
+.clientNameSelect label span {
+  color: var(--color-secondary-default);
+}
+.clientNameSelect .css-b62m3t-container,
+.clientNameSelect .css-3iigni-container {
+  height: 32px;
+  font-size: var(--font-size14);
+}
+.clientNameSelect .css-1s2u09g-control {
+  background-color: var(--border-box-bg);
+  border-color: var(--color-border-default);
+  min-height: inherit;
+  height: 32px;
+}
+.clientNameSelect .css-1s2u09g-control:hover {
+  border-color: var(--color-border-default);
+}
+.clientNameSelect .css-1insrsq-control {
+  background-color: var(--color-disabled);
+  border-color: var(--color-border-default);
+  min-height: inherit;
+  height: 32px;
+}
+.clientNameSelect .css-1pahdxg-control,
+.clientNameSelect .css-26l3qy-menu {
+  background-color: var(--border-box-bg);
+  color: var(--color-black);
+}
+.clientNameSelect .css-1pahdxg-control {
+  min-height: inherit;
+  height: 32px;
+  box-shadow: none;
+  border-color: var(--color-border-default);
+}
+.clientNameSelect .css-26l3qy-menu {
+  margin: 0;
+}
+.css-1pahdxg-control:hover {
+  border-color: var(--color-border-default) !important;
+}
+.clientNameSelect .css-319lph-ValueContainer {
+  padding: 0 0 0 10px;
+}
+.clientNameSelect .css-14el2xx-placeholder {
+  margin: 0;
+  letter-spacing: 0.02em;
+  color: var(--color-black);
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-left: 2px;
+}
+.clientNameSelect .css-6j8wv5-Input {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.02em;
+  color: var(--color-black);
+}
+.clientNameSelect .css-qc6sy-singleValue {
+  color: var(--color-black);
+}
+.clientNameSelect .css-1okebmr-indicatorSeparator,
+.clientNameSelect .css-109onse-indicatorSeparator {
+  display: none;
+}
+.clientNameSelect .css-tj5bde-Svg {
+  fill: var(--color-primary-default);
+  width: 16px;
+  height: auto;
+}
+.clientNameSelect .css-tlfecz-indicatorContainer {
+  padding: 0;
+  padding-right: 6px;
+}
+.reactSelectBox__option:hover {
+  background-color: var(--selectbox-hover);
+}
+.reactSelectBox__option--is-focused {
+  background-color: var(--selectbox-hover) !important;
+}
+.configFormatEntities {
+  width: 115px;
+}
+
+/* Config Right */
+.configMainContent .configRight {
+  width: 37.6%;
+  padding-bottom: 12px;
+}
+@media (min-width: 1600px) {
+  .tableBorderBox .table {
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .configMainContent .configRight {
+    width: 100%;
+  }
+}
+@media (max-width: 426px) {
+  .tableBorderBox .table thead tr th,
+  .tableBorderBox .table tbody tr td {
+    font-size: var(--font-size12);
+  }
+}
+
+/* Config Right Top */
+.configTopBlueBoxRight {
+  padding: 24px 16px;
+  height: 165px;
+}
+.configDotLeftContent {
+  width: 95px;
+  letter-spacing: 0.02em;
+}
+.configDotCenterContent {
+  width: 4px;
+  margin: 0 8px;
+  letter-spacing: 0.02em;
+}
+.configDotRightContent {
+  width: calc(100% - 114px);
+}
+.configDotRightContent .clientNameSelect {
+  width: 100%;
+}
+@media (max-width: 426px) {
+  .configDotCenterContent {
+    display: none !important;
+  }
+  .configTopBlueBoxRight {
+    padding: 16px 16px 4px;
+    height: inherit;
+  }
+  .configTopBlueBoxRight .d-flex {
+    flex-direction: column;
+    margin-bottom: 12px !important;
+  }
+  .configDotLeftContent {
+    width: 100%;
+    margin-bottom: 4px;
+  }
+  .configDotRightContent {
+    width: 100% !important;
+  }
+}
+/* Config Right Bottom */
+.tableBorderBox .configTableRight {
+  width: 100%;
+}
+.tableBorderBox .configTableRight thead tr th:first-child {
+  padding-left: 16px;
+}
+.tableBorderBox .configTableRight tbody tr td:first-child {
+  padding-left: 16px;
+}
+.tableBorderBox .configTableRight thead tr th:last-child {
+  padding-right: 8px;
+}
+.tableBorderBox .configTableRight tbody tr td:last-child {
+  padding-right: 8px;
+}
+.tableBorderBox .configTableRight input[type="number"] {
+  border: 1px solid var(--color-border-default);
+  border-radius: 4px;
+  width: 100%;
+  height: 24px;
+  padding-left: 12px;
+  font-family: "Inter";
+  font-size: var(--font-size12);
+  letter-spacing: 0.02em;
+  color: var(--color-black);
+  background-color: var(--border-box-bg);
+}
+.tableBorderBox .configTableRight input[type="number"]::placeholder {
+  font-family: "Inter";
+  font-size: var(--font-size12);
+  letter-spacing: 0.02em;
+  color: var(--color-black);
+}
+.tableBorderBox .configTableRight .terminalInputTwo {
+  width: 100% !important;
+}
+
+/* Pagination */
+.pagination {
+  margin-bottom: 0;
+}
+.pagination .paginationBottom {
+  border: none;
+  font-size: var(--font-size12);
+  padding: 0;
+  letter-spacing: 0.02em;
+  color: var(--color-black);
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin-right: 6px;
+  background-color: transparent;
+}
+.pagination .active .paginationBottom,
+.pagination .paginationBottom:hover {
+  background-color: var(--color-primary-default);
+  font-weight: 500;
+  color: var(--color-white);
+}
+.previousPagination,
+.nextPagination {
+  border: none;
+  font-weight: 500;
+  font-size: var(--font-size12);
+  padding: 0;
+  letter-spacing: 0.02em;
+  color: var(--color-primary-default);
+  display: flex;
+  align-items: center;
+  height: 24px;
+  text-decoration: underline;
+  background-color: transparent;
+}
+.previousPagination {
+  margin-right: 4px;
+}
+.previousPagination span:last-child {
+  margin-left: 2px;
+}
+.nextPagination {
+  margin-left: 4px;
+}
+.nextPagination span:first-child {
+  margin-right: 2px;
+}
+.previousPagination:hover,
+.nextPagination:hover {
+  background-color: transparent;
+}
+@media (max-width: 426px) {
+  .paginationBox {
+    flex-direction: column;
+    margin: 16px 0 24px !important;
+  }
+  .paginationBox .paginationLeft {
+    margin-bottom: 8px;
+  }
+}
+
+/* Online Cbr */
+.cbrContainer {
+  padding: 0 12px;
+}
+
+/* Accordion */
+.cbrContainer .accordion-item {
+  background-color: var(--color-light-blue);
+  border: 1px solid var(--color-border-default);
+  border-radius: 8px;
+}
+.cbrContainer .accordion-header {
+  padding: 12px;
+}
+.cbrContainer .accordion-header .allFiltersBtn {
+  width: 88px;
+}
+.cbrContainer .accordion-body {
+  padding: 0 12px;
+}
+.cbrContainer .accordion-body .configSelectBoxTop {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.cbrContainer .accordion-body .configSelectBoxTop .col {
+  padding: 0 6px;
+  width: 25%;
+  flex: inherit;
+  margin-top: 12px;
+}
+@media (max-width: 768px) {
+  .cbrContainer .accordion-body .configSelectBoxTop .col {
+    width: 33.33%;
+  }
+}
+@media (max-width: 425px) {
+  .cbrContainer .accordion-body .configSelectBoxTop .col {
+    width: 100%;
+  }
+}
+
+/* Accordion Bottom */
+.cbrContainer .cbrAccordionBottom {
+  margin-top: 16px;
+}
+.cbrContainer .cbrAccordionBottom .accordion-item {
+  background-color: var(--accordion-bg-light);
+  margin-bottom: 12px;
+}
+.cbrContainer .cbrAccordionBottom .accordion-header {
+  padding: 0;
+}
+.cbrContainer .cbrAccordionBottom .accordion-button {
+  padding: 12px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: transparent;
+  box-shadow: none;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: var(--font-size16);
+  color: var(--color-black);
+}
+.cbrContainer .cbrAccordionBottom .accordion-button::after {
+  background-image: url(../../images/common/accordionPlus.svg);
+}
+.cbrContainer .cbrAccordionBottom .accordion-button:not(.collapsed)::after {
+  background-image: url(../../images/common/accordionMinus.svg);
+  transform: inherit;
+}
+
+/* Table */
+.atmCountersTable .table {
+  margin-top: 12px;
+}
+.atmCountersTable th {
+  font-weight: 500;
+  font-size: var(--font-size14);
+  letter-spacing: 0.02em;
+  color: var(--color-black);
+  height: 40px;
+}
+.atmCountersTable th,
+.atmCountersTable td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 4px;
+  width: 16.66%;
+}
+/* Replenishment Counters */
+.replenishmentCountersTable th,
+.replenishmentCountersTable td {
+  width: 25%;
+}
+.replenishmentText {
+  background-color: var(--light-yellow-bg);
+  border-radius: 4px;
+  padding: 8px 0;
+  margin: -4px 0 16px;
+}
+/* Physical Counters */
+.physicalCountersTable th,
+.physicalCountersTable td {
+  width: 20%;
+}
+/* Physical Cash */
+.cbrContainer .physicalCashBox .configSelectBoxTop .col {
+  flex: 1 0 0%;
+  width: inherit;
+}
+.physicalCashHeading {
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+.cbrContainer .btnsBtm {
+  margin-top: -4px;
+  margin-bottom: 16px;
+}
+.cbrContainer .btnsBtm .btnPrimary {
+  margin-left: 8px;
+}
+
+/* Unmatched Report */
+.cursorPointer {
+  cursor: pointer;
+}
+.unmatchedContainer {
+  padding: 0 12px 12px;
+}
+.breadcrumbHeading {
+  height: 34px;
+}
+.unmatchedContainer .tableBorderBox .table {
+  width: 1955px;
+}
+.unmatchedContainer .configLeftBottom {
+  margin-top: 12px;
+}
+.unmatchedContainer .configSelectBoxTop {
+  margin-top: 0;
+}
+
+/* Accordion */
+.unmatchedContainer .accordion-item {
+  border-radius: 8px;
+  background-color: var(--color-light-blue);
+  border: 1px solid var(--color-border-default);
+}
+.unmatchedContainer .accordion-header {
+  padding: 12px 12px;
+}
+.unmatchedContainer .accordion-header .allFiltersBtn {
+  width: 88px;
+}
+.unmatchedContainer .accordion-body {
+  padding: 0 12px;
+}
+.unmatchedContainer .accordion-body .configSelectBoxTop .col {
+  padding: 0 6px;
+  width: 20%;
+  flex: inherit;
+  margin-top: 8px;
+}
+@media (max-width: 768px) {
+  .unmatchedContainer {
+    padding-bottom: 0;
+  }
+  .unmatchedContainer .accordion-body .configSelectBoxTop .col {
+    width: 33%;
+  }
+}
+@media (max-width: 425px) {
+  .breadcrumbHeading {
+    flex-direction: column-reverse;
+    align-items: flex-start !important;
+    margin: 12px 0;
+  }
+  .unmatchedContainer .has-search .form-control {
+    width: 98%;
+  }
+  .unmatchedContainer .accordion-body .configSelectBoxTop .col {
+    width: 100%;
+  }
+}
+
+/* Calendar */
+.react-datepicker-popper[data-placement^="bottom"] {
+  padding-top: 0 !important;
+}
+.react-datepicker-popper[data-placement^="bottom"]
+  .react-datepicker__triangle::before {
+  display: none !important;
+}
+.react-datepicker-popper[data-placement^="bottom"]
+  .react-datepicker__triangle::after {
+  display: none !important;
+}
+.react-datepicker {
+  font-family: "Inter" !important;
+  font-size: var(--font-size14) !important;
+  background-color: var(--color-light-blue) !important;
+  border: none !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+.react-datepicker__navigation-icon::before {
+  border-color: var(--color-primary-default) !important;
+  border-width: 2px 2px 0 0 !important;
+}
+.react-datepicker__header {
+  background-color: var(--header-background) !important;
+  border-bottom: none !important;
+  border-top-left-radius: 8px !important;
+  border-top-right-radius: 8px !important;
+}
+.react-datepicker__current-month {
+  color: var(--color-primary-default) !important;
+  font-weight: var(--font-weight-600) !important;
+  font-size: var(--font-size14) !important;
+}
+.react-datepicker__day-name {
+  font-weight: var(--font-weight-600);
+  font-size: var(--font-size12) !important;
+  color: var(--color-black) !important;
+}
+.react-datepicker__day {
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size14);
+  color: var(--color-black) !important;
+}
+.react-datepicker__day:hover {
+  background-color: var(--color-primary-default) !important;
+  border-radius: 4px !important;
+  color: var(--color-white) !important;
+}
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected {
+  background-color: var(--color-primary-default) !important;
+  border-radius: 4px !important;
+  color: var(--color-white) !important;
+}
+.unmatchedDate {
+  width: 100%;
+  background-color: var(--border-box-bg);
+  border: 1px solid var(--color-border-default);
+  height: 32px;
+  border-radius: 4px;
+  padding-left: 12px;
+  font-family: "Inter";
+  font-size: var(--font-size14);
+  letter-spacing: 0.02em;
+  color: var(--color-black);
+  position: relative;
+  background-image: url(../../images/common/calendar.svg);
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+}
+.react-datepicker__day--outside-month {
+  opacity: 30%;
+}
+
+/* Table Modal */
+.unmatchedTableModal .modal-dialog {
+  max-width: 1060px;
+}
+.unmatchedTableModal .modal-content {
+  width: 100%;
+}
+.unmatchedTableModal .modal-body {
+  padding: 0 12px 16px;
+}
+.unmatchedTableModal .unmatchedModalHeading {
+  margin: 16px 0 8px;
+}
+.unmatchedTableModal .table {
+  --bs-table-striped-bg: var(--border-box-bg);
+  --bs-table-striped-color: var(--color-black);
+  --bs-table-hover-bg: var(--table-hover-color);
+  --bs-table-hover-color: var(--color-black);
+  width: 100%;
+  margin-bottom: 0;
+}
+.unmatchedTableModal .table tbody {
+  --bs-table-bg: var(--border-box-bg);
+  --bs-table-accent-bg: var(--border-box-bg);
+}
+.unmatchedTableModal .table thead tr th {
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size14);
+  background-color: var(--color-secondary-light-defaut);
+  color: var(--color-black);
+  height: 32px;
+  padding: 0;
+  padding-left: 14px;
+  vertical-align: middle;
+  text-align: center;
+}
+.unmatchedTableModal .table thead tr th:first-child {
+  border-top-left-radius: 4px;
+}
+.unmatchedTableModal .table thead tr th:last-child {
+  border-top-right-radius: 4px;
+}
+.unmatchedTableModal .table tbody tr td:first-child {
+  border-bottom-left-radius: 4px;
+}
+.unmatchedTableModal .table tbody tr td:last-child {
+  border-bottom-right-radius: 4px;
+}
+.unmatchedTableModal .table tbody tr td {
+  font-size: var(--font-size14);
+  height: 34px;
+  padding: 0;
+  padding-left: 14px;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .unmatchedTableModal .modal-dialog {
+    max-width: 95%;
+  }
+  .unmatchedTableModal .table {
+    width: 1012px;
+  }
+}

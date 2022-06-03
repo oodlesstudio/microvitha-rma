@@ -1,0 +1,1056 @@
+.textAreaBox {
+  background-color: var(--border-box-bg);
+  border: 1px solid var(--color-border-default);
+  height: 64px;
+  padding: 12px;
+  font-family: Inter;
+  font-size: var(--font-size14);
+  line-height: 1.21;
+  letter-spacing: 0.02em;
+  color: var(--color-black);
+}
+
+/* First Blue Box */
+.newTicketFirstBlueBox {
+  min-height: inherit;
+}
+
+.newTicketFirstBlueBox .col {
+  width: 25%;
+}
+
+.atmActiveModal .modal-body img {
+  width: inherit;
+}
+
+/* Site Health Box */
+.siteDetailsBox {
+  background-color: var(--color-light-blue);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding-top: 12px;
+  padding-bottom: 6px;
+}
+
+.siteDetailsHeading {
+  font-weight: var(--font-weight-600);
+  font-size: var(--font-size14);
+  color: var(--color-black);
+  margin-bottom: 6px;
+}
+
+.siteDetailsText {
+  font-size: var(--font-size12);
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  color: var(--color-black);
+  margin-bottom: 6px;
+}
+
+.ipHead {
+  font-weight: 500;
+  font-size: var(--font-size12);
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  color: var(--color-black);
+  margin-bottom: 6px;
+}
+
+.ipHead span {
+  font-weight: 400;
+  margin-left: 4px;
+}
+
+.moreActionsBox {
+  background-color: var(--color-light-blue);
+  border: 1px solid var(--color-border-default);
+  border-radius: 4px;
+  width: 24px;
+  height: 24px;
+}
+
+.healthStatusCounts {
+  margin: 18px 0 6px;
+}
+
+.moreActionsBox .icon-Vector1 {
+  font-size: 12px;
+}
+
+.siteHealthActive,
+.siteHealthInactive {
+  border-bottom: 12px dotted #109d49;
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+}
+
+.siteHealthInactive {
+  border-color: #c54031;
+}
+
+/* Atm Ticket Status */
+.atmTicketStatus {
+  padding: 9px 35px 9px 9px;
+}
+
+.atmTicketStatus .siteHealthActive {
+  border-color: #E4B830;
+}
+
+.ticketStatusLeft {
+  font-size: var(--font-size14);
+  letter-spacing: 0.02em;
+  color: var(--color-black);
+  padding-left: 3px;
+}
+
+.ticketStatusCenter {
+  font-size: var(--font-size14);
+  letter-spacing: 0.02em;
+  color: var(--color-black);
+  padding: 0 6px;
+}
+
+.ticketStatusRight {
+  font-weight: 600;
+  font-size: var(--font-size14);
+  letter-spacing: 0.02em;
+  color: var(--color-black);
+}
+
+.atmTicketStatus .col:last-child .ticketStatusRight {
+  color: #C54031;
+}
+
+/* Docket Window */
+.docketWindow .nav-tabs {
+  border-bottom: none;
+  margin-top: 18px;
+}
+
+.docketWindow .nav-tabs .nav-link {
+  background-color: var(--border-box-bg);
+  border: 1px solid var(--color-border-default);
+  border-radius: 8px 8px 0px 0px;
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size14);
+  color: var(--color-black);
+  padding: 9px 12px;
+}
+
+.docketWindow .nav-tabs .nav-link.active {
+  background-color: var(--color-secondary-light-defaut);
+  font-weight: var(--font-weight-600);
+  color: var(--color-primary-default);
+}
+
+.docketWindowSection {
+  background-color: var(--border-box-bg);
+  border: 1px solid var(--color-border-default);
+  border-radius: 0px 8px 8px 8px;
+  padding: 12px;
+  margin-top: 0 !important;
+}
+
+.docketWindowSection .configSelectBoxTop .col {
+  margin-top: 0 !important;
+  margin-bottom: 18px;
+}
+
+.docketWindowSection .table {
+  width: 100%;
+}
+
+/* Log Box */
+.logBoxSection .configSelectBoxTop .col {
+  margin-top: 0 !important;
+  margin-bottom: 12px;
+}
+
+.logBoxSection .configSelectBoxTop .col .form-check {
+  min-height: inherit;
+  margin-bottom: 0;
+  padding-left: 22px;
+}
+
+.logBoxSection .configSelectBoxTop .col .form-check-input {
+  margin-left: -22px;
+  margin-top: 2px;
+}
+
+.logBoxSection .configSelectBoxTop .col .form-check-input:checked {
+  background-color: var(--color-primary-default);
+  border-color: var(--color-primary-default);
+}
+
+.logBoxSection .configSelectBoxTop .col .form-check-inline label {
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.logBox {
+  height: 90px;
+  background-color: var(--color-disabled);
+  border: 1px solid var(--color-border-default);
+  border-radius: 4px;
+  margin-bottom: 12px;
+  padding-top: 12px;
+  overflow-y: auto;
+}
+
+.logBox ul {
+  margin-bottom: 0;
+  padding-left: 28px;
+}
+
+.logBox ul li {
+  font-size: var(--font-size14);
+  letter-spacing: 0.02em;
+  color: var(--color-black);
+}
+
+/* Last Table */
+.newTicketLastTable .tableBorderBox {
+  padding-top: 12px;
+}
+
+.newTicketLastTable .tableBorderBox .table {
+  width: 100%;
+}
+
+.newTicketLastTable .tableBorderBox .table thead tr th:first-child,
+.newTicketLastTable .tableBorderBox .table tbody tr td:first-child {
+  padding-left: 0;
+}
+
+/* Buttons Absolute Div */
+.btnsAbsoluteDiv {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  background-color: var(--footer-bg);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.16);
+  padding: 5px;
+  z-index: 10;
+}
+
+.btnsAbsoluteDiv .btnPrimaryOutline {
+  border-color: var(--color-border-default);
+  font-weight: 500;
+  color: var(--grey-btn-text);
+}
+
+
+/* New Css By A */
+
+/* attachment Modal */
+
+.attachmentModal .modal-dialog {
+  width: 820px;
+}
+
+.unmatchedTableModal .modal-dialog {
+  max-width: 820px;
+}
+
+.unmatchedTableModal .modal-body {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.attachmentModal .modal-body {
+  padding: 0 12px;
+  background-color: var(--background-white);
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.attachmentUploadBox {
+  width: 100%;
+  height: 120px;
+  background-color: var(--color-light-blue);
+  border: 1px dashed var(--color-primary-default);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.attachmentText1 {
+  font-size: var(--font-size16);
+  color: var(--drop-file-color);
+}
+
+.attachmentText2 {
+  font-size: var(--font-size16);
+  color: var(--color-primary-default);
+  cursor: pointer;
+}
+
+.beforeAttachmentUpload {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.attachmentUploaded {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 445px;
+  height: 60px;
+  background: var(--color-background-default);
+  border: 1px solid var(--color-border-default);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 16px;
+}
+
+
+.feedbackRequestModal .modal-dialog {
+  width: 400px;
+}
+
+.uploadedDataText {
+  font-size: var(--font-size16);
+  color: var(--color-black);
+}
+
+
+.attachmentUploadBox.active {
+  border: none;
+}
+
+.attachmentUploadBox .beforeAttachmentUpload {
+  display: flex;
+}
+
+.attachmentUploadBox .afterAttachmentUpload {
+  display: none;
+}
+
+/* .attachmentUploadBox.active .beforeAttachmentUpload{
+  display: none;
+}
+.attachmentUploadBox.active .afterAttachmentUpload{
+  display: block;
+} */
+
+
+
+
+
+
+
+
+
+.atmSliderHeading {
+  margin-top: 6px;
+  margin-bottom: 12px;
+}
+
+.atmServiceContainer {
+  padding: 0 6px;
+}
+
+.atmServiceContainer .col {
+  width: 112px;
+  padding: 0 6px;
+  flex: inherit;
+  margin-bottom: 12px;
+}
+
+.atmSlideBox {
+  background: var(--color-light-blue);
+  border-radius: 8px;
+  position: relative;
+}
+
+.atmSlideBox img {
+  width: 88%;
+}
+
+.atmOptionsButton {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.atmOptionsDropdown {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
+
+/* .atmOptionsDropdown .dropdown-toggle {
+  background-color: rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding: 0;
+} */
+@media (max-width: 768px) {
+  .atmOptionsDropdown .dropdown-toggle {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.atmOptionsDropdown .dropdown-toggle:focus {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.atmOptionsDropdown .dropdown-menu.show {
+  inset: inherit !important;
+  transform: inherit !important;
+  top: 0 !important;
+  right: 0 !important;
+  background-color: var(--border-box-bg);
+  border: none;
+  box-shadow: 0px 0px 6.87437px rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+  width: 140px;
+  padding: 2px 0;
+  z-index: 10;
+}
+
+.atmOptionsDropdown .dropdown-item {
+  padding: 0 12px;
+}
+
+.atmOptionsDropdown .dropdown-item .dropdownInner {
+  height: 28px;
+  font-size: var(--font-size12);
+  letter-spacing: 0.02em;
+  color: var(--color-black);
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--color-popoverborder);
+  width: 100%;
+}
+
+.atmOptionsDropdown .dropdown-item .dropdownLineLast {
+  border: none;
+}
+
+.atmOptionsDropdown .dropdown-item:hover {
+  background-color: var(--color-secondary-light-defaut) !important;
+}
+
+.atmOptionsDropdown .dropdown-item .dropdownInner:hover {
+  border: none;
+}
+
+.atmOptionsDropdown .dropdown-item .dropdownInner .dropdownLineLast {
+  border: none;
+}
+
+.atmOptionsDropdown .dropdown-toggle .icon-Vector {
+  font-size: 10px;
+}
+
+.atmOptionsDropdown .dropdown-toggle::after {
+  display: none;
+}
+
+.atmOptionsButton span {
+  font-size: 10px;
+}
+
+.outOfServiceSlides {
+  background: #fbd2ce;
+}
+
+.disconnectedSlides {
+  background: #dee2e9;
+}
+
+.atmSeeAllButton {
+  width: 100%;
+  background: #d4ffcd;
+  border-radius: 8px;
+  padding: 9px;
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size14);
+  color: var(--color-primary-default);
+  text-decoration: underline;
+  margin: 6px 0 12px;
+}
+
+.atmSeeAllButton a {
+  width: 100%;
+  background: #d4ffcd;
+  border-radius: 8px;
+  padding: 9px;
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size14);
+  color: var(--color-primary-default);
+  text-decoration: underline;
+  margin: 6px 0 12px;
+}
+
+.seeAllWeb {
+  height: 84.51px;
+}
+
+.seeAllWeb .atmSeeAllButton {
+  text-decoration: none;
+}
+
+.seeAllWeb a {
+  color: var(--color-primary-default);
+}
+
+@media (max-width: 425px) {
+  .atmServiceContainer .col {
+    width: 50%;
+    padding: 0 6px;
+  }
+}
+
+
+
+
+/* DispatchHistory */
+
+.dispatchHistoryModal .modal-dialog {
+  width: 957px;
+  max-width: 957px;
+}
+
+
+
+.dispatchHistoryModal .modal-body {
+  padding: 0 12px;
+  background-color: var(--color-background-default);
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+
+
+/* Carousal */
+
+.CRA-Carousal {
+  width: 100%;
+  height: 98px;
+  padding: 16px;
+  background: var(--background-white);
+  border: 1px solid var(--color-border-default);
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-bottom: 21px;
+  margin-top: 16px;
+}
+
+
+
+
+/* swiper Navigation */
+
+.CRA-Carousal .swiper-button-next::after {
+  content: 'Next' !important;
+  font-size: 12px !important;
+  border-bottom: 1px solid var(--color-primary-default);
+  color: var(--color-primary-default);
+  font-family: 'Inter' !important;
+}
+
+.CRA-Carousal .swiper-button-prev::after {
+  content: 'Prev' !important;
+  font-size: 12px !important;
+  border-bottom: 1px solid var(--color-primary-default);
+  color: var(--color-primary-default);
+  font-family: 'Inter' !important;
+}
+
+.CRA-Carousal .CRA-Swiper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+.CRA-Carousal .swiper-button-prev,
+.CRA-Carousal .swiper-rtl .swiper-button-next {
+  left: 0px !important;
+  right: auto;
+}
+
+.CRA-Carousal .swiper-button-next,
+.CRA-Carousal .swiper-rtl .swiper-button-prev {
+  right: 0px !important;
+  left: auto;
+}
+
+.CRA-Text1 {
+  font-size: var(--font-size12);
+  color: var(--color-black);
+  opacity: 0.6;
+  font-weight: 400;
+  width: inherit !important;
+}
+
+.CRA-Text2 {
+  font-size: var(--font-size14);
+  color: var(--color-primary-default);
+  font-weight: var(--font-weight-600);
+  margin-top: 6px;
+  border-bottom: 1px solid var(--color-primary-default);
+  display: inline-block;
+  width: inherit !important;
+}
+
+.CRA-Slide {
+  cursor: pointer;
+  width: 60px !important;
+}
+
+.CRA-TableHeading {
+  font-size: var(--font-size16);
+  font-weight: var(--font-weight-600);
+  color: var(--color-black);
+}
+
+/* grid css by a */
+
+.logBoxSection .configSelectBoxTop .col {
+  margin-top: 0 !important;
+  margin-bottom: 12px;
+}
+
+.logBoxSection .configSelectBoxTop .col-3 {
+  margin-top: 0 !important;
+  margin-bottom: 12px;
+}
+
+.logBoxSection .configSelectBoxTop .col-4 {
+  margin-top: 0 !important;
+  margin-bottom: 12px;
+}
+
+.logBoxSection .configSelectBoxTop .col-6 {
+  margin-top: 0 !important;
+  margin-bottom: 12px;
+}
+
+.logBoxSection .configSelectBoxTop .col-lg-3 {
+  margin-top: 0 !important;
+  margin-bottom: 12px;
+}
+
+.logBoxSection .configSelectBoxTop .col-lg-6 {
+  margin-top: 0 !important;
+  margin-bottom: 12px;
+}
+
+
+
+.identificationContainer .configLeftBottom .configSelectBoxTop .col-lg-3 {
+  padding: 0 6px;
+  margin-top: 12px;
+}
+
+.identificationContainer .configLeftBottom .configSelectBoxTop .col-md-6 {
+  padding: 0 6px;
+  margin-top: 12px;
+}
+
+
+/* responsive css by a */
+/* grid */
+.docketWindowSection .configSelectBoxTop .newcol {
+  margin-top: 0 !important;
+  margin-bottom: 18px !important;
+}
+
+.docketWindowSection .configSelectBoxTop .newcol {
+  padding: 0 6px;
+}
+
+.identificationContainer .configLeftBottom .configSelectBoxTop .newcol {
+  width: 33.33% !important;
+}
+
+
+.dispatchHistoryModal .tableBorderBox .table {
+  width: 100% !important;
+}
+
+
+.dispatchHistoryModal .modal-header {
+  background-color: var(--modal-header);
+}
+
+.dispatchHistoryModal.defaultThemeModal .modal-content {
+  width: 100%;
+}
+
+@media(max-width: 768px) {
+  .tab-table {
+    width: 1000px !important;
+  }
+
+  .dispatchHistoryModal .tableBorderBox .table {
+    width: 1000px !important;
+  }
+
+
+  .attachmentModal .modal-dialog {
+    width: 700px;
+  }
+
+  .atmTicketStatus {
+    padding: 9px 0px;
+  }
+
+  /* grid */
+  .docketWindowSection .configSelectBoxTop .newcol {
+    margin-top: 0 !important;
+    margin-bottom: 18px !important;
+  }
+
+  .identificationContainer .configLeftBottom .configSelectBoxTop .newcol {
+    width: 33.33% !important;
+  }
+
+  .identificationContainer .configLeftBottom .configSelectBoxTop .newcol-12 {
+    width: 100% !important;
+  }
+
+  .configLeftBottom {
+    padding-bottom: 0px !important;
+  }
+
+  .dispatchHistoryModal .modal-dialog {
+    width: 720px;
+  }
+
+
+
+}
+
+@media(max-width: 375px) {
+  .tab-table {
+    width: 1000px !important;
+  }
+
+  .attachmentModal .modal-dialog {
+    width: 343px;
+  }
+
+  .feedbackRequestModal .modal-dialog {
+    width: 343px;
+  }
+
+  .dispatchHistoryModal .modal-dialog {
+    width: 343px;
+  }
+
+  .CRA-Carousal .CRA-Swiper {
+    width: 75%;
+  }
+
+  .ticketmobileheader {
+    margin-top: 16px;
+  }
+
+  .errorFiltersModal .commentModalBody .btnsMobileBtn {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  /* nav-tabs Css */
+  .nav-mobile-tabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  .nav-mobile-link {
+    height: 100%;
+  }
+
+
+
+}
+
+
+@media(max-width:500px) {
+  .dispatchHistoryModal .modal-dialog {
+    width: 343px;
+  }
+
+  .CRA-Carousal .CRA-Swiper {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media(max-width:900px) {
+  .dispatchHistoryModal .modal-dialog {
+    width: 90vw;
+  }
+}
+
+
+
+.configTopBlueBox-2 .col-sm-12,
+.configTopBlueBox-2 .col-sm-3 {
+  flex: inherit;
+  padding: 0 6px;
+  margin-top: 12px;
+}
+
+
+/* dropdown css */
+.footerDropDownBtn {
+  background-color: var(--background-white);
+  color: #000000;
+  border: 1px solid var(--color-border-default);
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 174px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+}
+
+.footerDropDownBtn.dropdown-toggle {
+  background-color: var(--border-box-bg) !important;
+  color: #000000 !important;
+  border: 1px solid #D5D9E0 !important;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 32px;
+  font-size: var(--font-size14);
+  width: 140px;
+  color: var(--color-black) !important;
+}
+
+.footerDropDownBtn.dropdown-toggle::after {
+  content: "";
+  border: none;
+  margin-left: auto;
+  background-image: url("./../../images/common/DropdownArrow.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+}
+
+.footerDropDownBtn~.dropdown-menu.show {
+  width: 174px;
+  filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.16));
+  border-radius: 4px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background-color: var(--background-white);
+}
+
+
+.footerDropDOwnText {
+  font-size: var(--font-size14);
+  color: var(--color-black);
+}
+
+.footerDropdownHover {
+  background-color: var(--background-white);
+}
+
+.footerDropdownHover:hover {
+  background-color: var(--color-secondary-light-defaut);
+}
+
+.footerDropdownHover:hover .footerDropdownItem {
+  background-color: var(--color-secondary-light-defaut) !important;
+}
+
+.footerDropdownHover:hover .footerDropdownItem.active {
+  background-color: var(--color-secondary-light-defaut) !important;
+}
+
+
+.footerDropdownItem:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: unset !important;
+}
+
+.footerDropdownItem {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: 1px solid var(--color-popoverborder);
+  margin-left: 12px;
+  margin-right: 12px;
+  width: initial;
+  padding: 0px;
+}
+
+
+
+/* New Css */
+
+
+.CMS-grid .cmscol {
+  width: 25%;
+  padding: 0 6px;
+}
+
+.CMS-grid .cmscol2 {
+  width: 50%;
+  padding: 0 6px;
+}
+
+.CMS-grid .cmscolheadings {
+  width: 50%;
+  padding: 0 8px;
+}
+
+.CMS-grid .clientNameSelect {
+  margin-bottom: 12px;
+}
+
+
+.headingCheckBoxs:not(:last-child) {
+  margin-right: 20px;
+}
+
+/* .headingCheckBoxs label{
+  white-space: nowrap;
+} */
+
+.checkHeadingBox {
+  display: flex;
+}
+
+.headingAllSections {
+  margin-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ConfigBtns {
+  width: 100%;
+  margin: 12px auto;
+}
+
+.configSaveBtn {
+  margin-left: 6px;
+}
+
+/* Docket Window */
+.docketWindow .nav-tabs {
+  border-bottom: none;
+  margin-top: 0px;
+}
+
+
+@media(max-width:768px) {
+  .CMS-grid .cmscol {
+    width: 33.33%;
+    padding: 0 6px;
+  }
+
+  .CMS-grid .cmscol2 {
+    width: 66.67%;
+    padding: 0 6px;
+  }
+
+  .CMS-grid .cmscolheadings {
+    width: 100%;
+    padding: 0 6px;
+  }
+
+  /* nav-tabs Css */
+  .nav-mobile-tabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  .nav-mobile-link {
+    height: 100%;
+    padding: 11px 16px;
+    white-space: nowrap;
+  }
+
+}
+
+@media(max-width:425px) {
+  .CMS-grid .cmscol {
+    width: 100%;
+    padding: 0 6px;
+  }
+
+  .CMS-grid .cmscol2 {
+    width: 100%;
+    padding: 0 6px;
+  }
+
+  .CMS-grid .cmscolheadings {
+    width: 100%;
+    padding: 0 6px;
+  }
+
+  .checkHeadingBox {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .headingAllSections {
+    margin-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* nav-tabs Css */
+  .nav-mobile-tabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  .nav-mobile-link {
+    height: 100%;
+    padding: 11px 16px;
+    white-space: nowrap;
+  }
+
+  .ConfigBtns {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 12px auto;
+  }
+
+  .ConfigBtns button {
+    width: 100%;
+  }
+
+  .configSaveBtn {
+    margin-left: 0px;
+  }
+
+  .configBtn{
+    margin-bottom: 12px;
+  }
+
+}
