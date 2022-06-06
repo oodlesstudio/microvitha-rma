@@ -403,7 +403,7 @@
     font-size: var(--font-size14);
     line-height: 17px;
     text-align: center;
-        color: var(--color-black);
+    color: var(--color-black);
     opacity: 0.7;
 }
 
@@ -411,7 +411,7 @@
     padding: 0;
 }
 
-.companyLogo{
+.companyLogo {
     border-radius: 4px;
 }
 
@@ -499,18 +499,23 @@
         margin-top: 12px;
     }
 
-        .mfirightDetails {
-            margin-left: 0vw;
+    .mfirightDetails {
+        margin-left: 0vw;
+    }
+
+    .mfi-info {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .mfi-info .col {
+        width: 33.33%;
+    }
+
+        .mfiSummaryBox {
+
+            margin-bottom: 12px;
         }
-
-                .mfi-info {
-                    margin-left: 0px;
-                    margin-right: 0px;
-                }
-
-                                .mfi-info .col {
-                                    width: 33.33%;
-                                }
 
 
 }
